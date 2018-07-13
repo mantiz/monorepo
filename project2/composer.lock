@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "feef0e8821970495b1dd9fcf3c4074f0",
+    "content-hash": "9b69c128b47880d6205259e69ee83680",
     "packages": [
         {
             "name": "monorepo/another-library",

@@ -4,46 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "feef0e8821970495b1dd9fcf3c4074f0",
+    "content-hash": "3d073b9aa053cd86d704e8e5ad29d92f",
     "packages": [
-        {
-            "name": "monorepo/another-library",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../another-library",
-                "reference": "15383dc03ae190689be546afda57f9c16636b160",
-                "shasum": null
-            },
-            "require": {
-                "symfony/http-kernel": "~3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Monorepo\\": "src/php/"
-                }
-            }
-        },
-        {
-            "name": "monorepo/library",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../library",
-                "reference": "1e7d4be3a0c285d908da8366c6453f435844259c",
-                "shasum": null
-            },
-            "require": {
-                "symfony/http-kernel": "~3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Monorepo\\": "src/php/"
-                }
-            }
-        },
         {
             "name": "psr/log",
             "version": "1.0.2",
@@ -471,10 +433,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "monorepo/library": 20,
-        "monorepo/another-library": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
