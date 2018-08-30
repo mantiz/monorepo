@@ -9,5 +9,7 @@ class TestingMonorepoDependencies
     function foo()
     {
         $kernel = new Exception\BadRequestHttpException('Test');
+
+        $foo = new Foo();
     }
 }
